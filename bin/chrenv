@@ -1,0 +1,2 @@
+PKG_PATH=$(/usr/bin/env python -c 'import sys; print(next(p for p in sys.path if "site-packages" in p))')
+/usr/bin/env python $PKG_PATH/aws_creds_to_env/aws_env_export.py $1
