@@ -17,7 +17,7 @@ source_profile = dev
 region = us-west-2
 
 [profile prod]
-role_arn = arn:aws:iam::999999999999:role/kubenetes_admin
+role_arn = arn:aws:iam::999999999999:role/kubernetes_admin
 source_profile = prod
 region = us-west-2
 assume_role_ttl = 3h
